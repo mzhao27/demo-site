@@ -1,0 +1,88 @@
+$text-color: #2c614a;
+$background-color: #e4f7ef;;
+
+body {
+  background-color: $background-color;
+}
+
+.icon {
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 100px;
+    color: $text-color;
+    margin: 0 137.5px 27px;
+  }
+  
+  .header {
+    margin: 200px auto 30px;
+    width: 400px;
+  }
+  
+  .login_wrapper {
+    margin: 0 auto;
+    width: 320px;
+  }
+  
+  input {
+    border-radius: 3px;
+    border: 1px solid $text-color;
+    background-color: $background-color;
+    color: $text-color;
+    font-size: 15px;
+    padding-left: 27px;
+    width: 274px;
+    height: 30px;
+  }
+  
+  input:enabled {
+    outline: none;
+  }
+  
+  ::placeholder {
+    color: $text-color;
+  }
+  
+  .input_icon {
+    color: $text-color;
+    display: inline-block;
+    position: absolute;
+    margin: 8px 12px 0 8px;
+  }
+  
+  .button {
+    background-color: $text-color;
+    border-radius: 3px;
+    border: 1px solid $text-color;
+    color: #fff;
+    width: 305px;
+    height: 34px;
+  }
+
+  .button:hover {
+    cursor: pointer;
+  }
+  
+  .button_label {
+    display: flex;
+    align-items: center;
+    margin-left: 115px;
+    margin-top: 5px;
+  }
+  
+  .login-input-error {
+    color: #cc1b1b;
+    font-size: 13px;
+    position: absolute;
+    width: 305px;
+  }
+  
+  .login-input-error__hide {
+    display: none;
+  }
+  
+  .input_wrapper {
+    margin: 0 auto 18px;
+    width: 320px;
+  }
